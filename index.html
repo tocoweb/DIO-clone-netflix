@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">THE WALKING DEAD</h3>
+                <p class="descricao">Nos Estados Unidos pós-apocalíptico, um pequeno grupo de sobreviventes segue
+                    viajando à procura de uma nova casa longe dos mortos-vivos. O desespero por segurança e suprimentos
+                    os coloca constantemente à beira da sanidade.</p>
+                <div class="botoes">
+                    <a href="#open" rel="modal:open"><button type="button" role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button></a>
+                    <a href="#close" rel="modal:open"><button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/mini-1.jpg" alt="mini capa 1">
+            </div>
+            <div class="item">
+                <img src="img/mini-2.jpg" alt="mini capa 2">
+            </div>
+            <div class="item">
+                <img src="img/mini-3.jpg" alt="mini capa 3">
+            </div>
+            <div class="item">
+                <img src="img/mini-4.jpg" alt="mini capa 4">
+            </div>
+            <div class="item">
+                <img src="img/mini-5.jpg" alt="mini capa 5">
+            </div>
+            <div class="item">
+                <img src="img/mini-6.jpg" alt="mini capa 6">
+            </div>
+            <div class="item">
+                <img src="img/mini-7.jpg" alt="mini capa 7">
+            </div>
+            <div class="item">
+                <img src="img/mini-8.jpg" alt="mini capa 8">
+            </div>
+            <div class="item">
+                <img src="img/mini-9.jpg" alt="mini capa 9">
+            </div>
+            <div class="item">
+                <img src="img/mini-10.jpg" alt="mini capa 10">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- cód modal -->
+    <div id="open" class="modal">
+        <img src="img/poster.jpg" alt="poster">
+        <a href="#" rel="modal:close">Fechar</a>
+    </div>
+    <div id="close" class="modal">
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-1.jpg" alt="twd temporada 1">
+            </div>
+            <div class="content">
+                <h3>Temporada 1</h3>
+                <p class="data">2010 | 6 episódios</p>
+                <p class="descrip">A 1ª temporada de The Walking Dead começou a ser exibida em 31 de outubro de 2010.
+                </p>
+                <p class="descrip">Em um mundo dominado por zumbis, um grupo de sobreviventes tenta encontrar segurança
+                    e respostas dentro do CCD.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-2.jpg" alt="twd temporada 2">
+            </div>
+            <div class="content">
+                <h3>Temporada 2</h3>
+                <p class="data">2011 | 13 episódios</p>
+                <p class="descrip">A 2ª temporada de The Walking Dead começou a ser exibida em 16 de outubro de 2011.
+                </p>
+                <p class="descrip">Na segunda temporada deste drama apocalíptico, Rick e seu grupo continuam buscando
+                    refúgio contra os zumbis em um mundo devastado e perigoso.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-3.jpg" alt="twd temporada 3">
+            </div>
+            <div class="content">
+                <h3>Temporada 3</h3>
+                <p class="data">2012 | 16 episódios</p>
+                <p class="descrip">A 3ª temporada de The Walking Dead começou a ser exibida em 14 de outubro de 2012.
+                </p>
+                <p class="descrip">Na terceira temporada, Rick e o grupo de sobreviventes dominam uma prisão abandonada
+                    e descobrem uma comunidade liderada por um homem poderoso conhecido como Governador.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-4.jpg" alt="twd temporada 4">
+            </div>
+            <div class="content">
+                <h3>Temporada 4</h3>
+                <p class="data">2013 | 16 episódios</p>
+                <p class="descrip">A 4ª temporada de The Walking Dead começou a ser exibida em 13 de outubro de 2013.
+                </p>
+                <p class="descrip">Após o massacre, começa a caçada pelo Governador. Rick, Daryl, Michonne e Karen
+                    planejam seus próximos passos.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-5.jpg" alt="twd temporada 5">
+            </div>
+            <div class="content">
+                <h3>Temporada 5</h3>
+                <p class="data">2014 | 16 episódios</p>
+                <p class="descrip">A 5ª temporada de The Walking Dead começou a ser exibida em 12 de outubro de 2014.
+                </p>
+                <p class="descrip">Na 5a. temporada, Rick e seu grupo enfrentam seus sequestradores em Terminus,
+                    descobrem o que aconteceu com Beth e devem decidir se os novos sobreviventes são confiáveis.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-6.jpg" alt="twd temporada 6">
+            </div>
+            <div class="content">
+                <h3>Temporada 6</h3>
+                <p class="data">2015 | 16 episódios</p>
+                <p class="descrip">A 6ª temporada de The Walking Dead começou a ser exibida em 11 de outubro de 2015.
+                </p>
+                <p class="descrip">Enquanto buscam formas de sobreviver, o grupo de Rick e os moradores de Alexandria se
+                    deparam com um mais um adversário formidável.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-7.jpg" alt="twd temporada 7">
+            </div>
+            <div class="content">
+                <h3>Temporada 7</h3>
+                <p class="data">2016 | 16 episódios</p>
+                <p class="descrip">A 7ª temporada de The Walking Dead começou a ser exibida em 23 de outubro de 2016.
+                </p>
+                <p class="descrip">O grupo de Rick consegue escapar de um ato brutal de violência, mas todos se
+                    preocupam com outros horrores que Negan e os Salvadores ainda possam aprontar.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-8.jpg" alt="twd temporada 8">
+            </div>
+            <div class="content">
+                <h3>Temporada 8</h3>
+                <p class="data">2017 | 16 episódios</p>
+                <p class="descrip">A 8ª temporada de The Walking Dead começou a ser exibida em 22 de outubro de 2017.
+                </p>
+                <p class="descrip">Negan continua seu reinado de terror. Rick reúne seus aliados no Reino e no Topo da
+                    Colina para declarar guerra aos Salvadores.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-9.jpg" alt="twd temporada 9">
+            </div>
+            <div class="content">
+                <h3>Temporada 9</h3>
+                <p class="data">2018 | 16 episódios</p>
+                <p class="descrip">A 9ª temporada de The Walking Dead começou a ser exibida em 7 de outubro de 2018.
+                </p>
+                <p class="descrip">Com o fim da guerra, Rick espera que os sobreviventes consigam superar as diferenças.
+                    Mas o perigo vem de todos os lados e ameaça a paz recém-conquistada.</p>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="capa">
+                <img src="img/capa-10.jpg" alt="twd temporada 10">
+            </div>
+            <div class="content">
+                <h3>Temporada 10</h3>
+                <p class="data">2019 | 22 episódios</p>
+                <p class="descrip">A 10ª temporada de The Walking Dead começou a ser exibida em 6 de outubro de 2019.
+                </p>
+                <p class="descrip">Na última temporada com Rick Grimes, os sobreviventes descobrem que comandar é mais
+                    difícil do que conquistar à medida que tentam construir um novo mundo.</p>
+            </div>
+        </div>
+
+        <a href="#" rel="modal:close">Fechar</a>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9f63483e24.js" crossorigin="anonymous"></script>
+    <!-- owl js -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <!-- modal js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+</body>
+
+</html>
